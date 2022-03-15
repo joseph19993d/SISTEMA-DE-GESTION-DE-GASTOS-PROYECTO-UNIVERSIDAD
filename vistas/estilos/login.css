@@ -1,0 +1,63 @@
+body {
+    background-image: url(formulariosfondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    }
+#contenedor{
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    max-width: 600px;
+    padding: 10px 20px;
+}
+h1{
+    text-align: center;
+    color:seashell;
+}
+h2{
+    text-align: center;
+    color:seashell;
+}
+label{
+    color: seashell;
+}
+form {
+
+
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    }
+    #boton {
+        background: #31384A;
+        color: rgba(208, 220, 235, 0.378);
+        padding: 5px;
+        box-sizing: border-box;
+        margin: auto;
+        
+        
+        
+        }
+        
+        #boton:hover {
+        
+        cursor: pointer;
+        
+        
+        }
+        
+        @media (max-whidth: 480px) {
+         form{
+             width: 100%;
+         }
+        
+        }
+        
+        a {
+        color: seashell;
+        
+        }

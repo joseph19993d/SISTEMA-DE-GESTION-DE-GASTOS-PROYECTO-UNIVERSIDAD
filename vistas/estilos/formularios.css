@@ -1,0 +1,108 @@
+body {
+background-image: url(formulariosfondo.jpg);
+background-size: 100vw 100vh;
+background-attachment: fixed;
+margin: 0;
+}
+
+form {
+
+text-decoration:none;
+width: 450px;
+margin: auto;
+margin-top: 20px;
+background: rgba( 0,  0,  0, 0.5 );
+padding: 10px 20px;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+h1 {
+
+color: seashell;
+text-align: center;
+margin: 10px;
+font-size: 30px;
+margin-top: 20px;
+
+}
+
+input, textarea {
+
+max-width: 100%;
+margin-bottom: 12px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17 px;
+
+
+}
+
+textarea {
+
+min-height: 100px;
+max-height: 200px;
+
+}
+
+#boton {
+
+background: #31384A;
+color: seashell;
+padding: auto;
+text-decoration: none;
+
+}
+
+#boton:hover {
+
+cursor: pointer;
+
+}
+#botonFotos {
+   background: #31384A; 
+    color: seashell;
+    padding: auto;
+    text-decoration: none;
+    width: 800px;
+
+}
+
+
+a,label {
+color: seashell;
+
+}
+
+#boton2 {
+
+    background: #31384A;
+    color: seashell;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+    }
+    
+    #boton:hover {
+    
+    cursor: pointer;
+    
+    
+    }
+    
+    @media (max-whidth: 480px) {
+     form{
+         width: 100%;
+     }
+    
+    }
+select{
+width: 100%;
+margin-bottom: 0px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17 px;
+}
+ 

@@ -1,0 +1,83 @@
+body {
+    background-image: url(formulariosfondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 10px;
+    }
+    #boton {
+        text-decoration:none;
+        font-weight: auto;
+        font-size: auto;
+        color:#7c7794;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:4px;
+        padding-right: 4px;
+        background-color:rgba(100, 100, 100, alpha);
+        border-color: #4846c421;
+        color: rgb(211, 219, 230);
+        border-width: 3px;
+        border-style: solid;
+    
+        }
+        
+        #boton:hover {
+        background-color: rgba(12, 112, 226, 0.816);
+        cursor: pointer;
+        
+        
+        }
+        
+        @media (max-whidth: 480px) {
+         form{
+             width: 100%;
+         }
+        
+        }
+#contenedor1{
+
+            max-width: 500px;
+            margin: auto;
+            margin-top: 20px;
+            background: rgba( 0,  0,  0, 0.5 );
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 7px;
+        
+}
+#MWelcome{
+    background-color: rgba( 0,  0,  0, 0.5 );
+    font-family: cursive;
+    max-width: 500px;
+    position: center;
+    box-sizing: border-box;
+    border-color: rgba(27, 66, 118, 0.816);
+    border-radius: 50px;
+}
+ 
+h1{
+color: seashell;
+text-align: center;
+margin: 10px;
+font-size: 30px;
+margin-top: 20px;
+}
+#contenedor0{
+    background: rgba( 0,  0,  0, 0.2 );
+    border-radius: 7px;
+
+}
+#opciones{
+    width: 450px;
+    margin: auto;
+    margin-top: auto;
+    background: rgba( 0,  0,  0, 0.2 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+    
+}
+h2{
+    color: seashell;
+}

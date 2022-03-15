@@ -1,0 +1,332 @@
+    body {
+    background-image: url(formulariosfondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 2px;
+    }
+  
+    h1 {
+    
+    color: seashell;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    
+    }
+
+    label{
+
+    color: seashell;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+
+    }
+    
+    input, textarea {
+    
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17 px;
+    
+    
+    }
+    
+    textarea {
+    
+    min-height: 100px;
+    max-height: 200px;
+    
+    }
+
+    #OptioSmall{
+    background: #31384A;
+    color: seashell;
+    padding: 5px;
+    color: seashell;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-decoration: none;
+    }
+    #OptioSmall:hover {
+        cursor: pointer;
+        }
+        
+        @media (max-whidth: 480px) {
+         form{
+             width: 100%;
+         }
+        
+        }
+
+    
+    #boton {
+
+    max-width: 100px;
+    background: #31384A;
+    color: seashell;
+    padding: 5px;
+    color: seashell;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-decoration: none;
+    
+      
+    }
+    #boton:hover {
+    cursor: pointer;
+    }
+    
+    @media (max-whidth: 480px) {
+     form{
+         width: 100%;
+     }
+    
+    }
+    #boton2 {
+    
+        background: #31384A;
+        color: seashell;
+        padding: 2px;
+        color: seashell;
+        box-sizing: border-box;
+        border-radius: 4px;
+        
+          
+        }
+    
+
+#opciones3{
+
+    max-width:90%;
+    position: center;
+    margin: auto;
+    margin-top: 20px;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+
+#opciones{
+
+    width: 450px;
+   
+    margin: auto;
+    margin-top: auto;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+
+
+
+#contenedor1{
+
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+} 
+#contenedor{
+    position: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+  height: 200px;
+  overflow: auto;
+  border: black 1px solid;
+
+} 
+
+
+#botonC {
+    
+    background: #31384A;
+    color: seashell;
+    padding: 10px;
+    
+    
+}
+
+
+li a{
+    text-decoration: none;
+}
+
+#Nderecha{
+    position: fixed;
+
+}
+#Nisquierda{
+    position: left;
+}
+#c2{
+
+    max-width: 80%;
+    max-height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+
+#Rango{
+    width: 25%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#Rango2{
+    width: 25%;
+    padding: 3px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+#img1{
+    margin-top: 20px;
+    
+    max-width: 900px;
+}
+#MWelcome{
+    background-color: rgba( 0,  0,  0, 0.5 );
+    font-family: cursive;
+}
+table{
+
+    max-width: 100%;
+    max-height: auto;
+    margin: 2px;
+    margin-top: 20px;
+    background: rgba( 0,  0,  0, 0.5 );
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: seashell;
+   
+    border-color: rgba(23, 111, 169, 0.618);
+     
+
+}
+th{
+    max-width: 10%;
+    background: #16363d;
+    color:seashell;
+    scroll-behavior: auto;
+}
+td{
+    max-width: 10%;
+    color: seashell;
+    scroll-behavior: auto;
+
+}
+
+#botonTable {
+
+    max-width: 10px;
+    
+    background: #31384A;
+    color: seashell;
+    padding: 6px;
+    color: seashell;
+    text-decoration: none;
+    
+      
+}
+
+
+@media
+screen 
+and (max-width: 980px), (min-device-width: 980px) 
+and (max-device-width: 980px)  {
+
+    table {
+        max-width: 100%;
+        display: block;
+        padding-top: 10px;
+    }
+  
+ thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+tr {
+margin: 0 0 1rem 0;
+
+}
+
+tr:nth-child(odd) {
+background: rgba( 0,  0,  0, 0.4 );
+}
+  
+
+   
+  td {
+      border: none;
+      font-size: 10px;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      color: white;
+  }
+
+  td:before {
+     
+      position: absolute;
+      
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+  }
+
+  
+  td:nth-of-type(1):before { content: "<h1> Creador </h1>"; }
+  td:nth-of-type(2):before { content: "Fecha"; }
+  td:nth-of-type(3):before { content: "Responsable"; }
+  td:nth-of-type(4):before { content: "Total"; }
+  td:nth-of-type(5):before { content: "Gasto"; }
+  td:nth-of-type(6):before { content: "Estado"; }
+  td:nth-of-type(7):before { content: "Dscripcion"; }
+  td:nth-of-type(8):before { content: "ID"; }
+  td:nth-of-type(9):before { content: "Opciones"; }
+  td:nth-of-type(10):before { content: "Total"; }
+  #botonTable {
+
+    width: auto;
+    background: #31384A;
+    color: seashell;
+    padding: 2px;
+    color: seashell;
+    text-decoration: none;
+    
+      
+    }
+}
+
